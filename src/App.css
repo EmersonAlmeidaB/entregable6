@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #30154f;
+      
+}
+
+.loginPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.loginPage_article {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.loginPage__img {
+   height: 600px;
+}
+
+.loginPage h2 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.loginPage__input {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.loginPage__input__input {
+    border: none;
+    font-size: 25px;
+    height: 80px;
+    width: 500px;
+    color: beige;
+}
+
+.loginPage__label {
+    color: bisque;
+    font-size: 20px;
+    padding: 40px
+}
+
+.loginPage__btn {
+    color: #A284F6;
+    background-color: #886AE2;
+    padding: 8px 40px;
+    color: antiquewhite;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.loginPage__p {
+    color: azure;
+    font-size: 20px;
+}
+
+.registerpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 10px;
+}
+
+.registerpage__img {
+    height: 600px;
+}
+
+.registerpage__article {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.registerpage h2 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.registerpage__input {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.registerpage__input__input {
+    border: none;
+    font-size: 25px;
+    height: 80px;
+    width: 500px;
+    color: beige;
+}
+
+.registerpage__label {
+    color: bisque;
+    font-size: 20px;
+    padding: 40px
+}
+
+.registerpage__btn {
+    color: #A284F6;
+    background-color: #886AE2;
+    padding: 8px 40px;
+    color: antiquewhite;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.registerpage p {
+    color: azure;
+    font-size: 20px;
+}
+
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(23, 46, 123);
+}
+
+.homepage__form {
+    height: 700px;
+    width: 500px;
+    font-size: 2rem;
+    background: linear-gradient(
+        0deg,
+        hsla(249, 53%, 38%, 0.35)
+        hsla(249, 53%, 38%, 1)
+    );
+    padding: 20px;
+}
+
+.homepage__input {
+    font-size: 30px;
+    background-color: hsla(0, 0%, 100%, 0.06);
+    color: aliceblue;
+
+}
+
+.homepage__selec {
+    background-color: hsla(250, 15%, 84%, 0.06);
+    font-size: 30px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.trackpage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: azure;
+}
+
+rackinfo {
+    background-color: aqua;
+}
